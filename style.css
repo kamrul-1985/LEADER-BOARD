@@ -42,12 +42,15 @@ body{
 /* player section styling */
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .players-containers{
     width: 870px;
     background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
 
 .players-title {
@@ -134,4 +137,66 @@ padding: 30px;
     color:#562EFF;
     font-size: 16px;
 }
+/* latest course style */
+.lates-container{
+    width: 870px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
 
+.latest-course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.latest-title{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color:#562EFF;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding: 40px;
+
+}
+.course-img{
+    width: 224px;
+    height: 104px;
+}
+.course-desc{
+color: #ED6B4F;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+}
+/* icon style */
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding-left: 5px;
+    border: 1px solid  #ED6B4F;
+    border-radius: 30%;
+    background-color:#f1c5bb;
+
+}
+.fa-star.filled{
+color: #FFC014;
+font-size: 12px;
+}
+.fa-star{
+color: #AEAEAE;
+font-size: 12px;
+}
+.fa-clock,.rating-para{
+    color: #ED6B4F;
+    font-size: 12px;
+}
