@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F3F1FF;
+}
 /* header area styling */
 .nav-area{
      background-color: #562EFF;
@@ -14,6 +17,7 @@
 .logo{
     width: 40px;
     height: 51px;
+    padding-left: ;
 }
 .menu-area {
 
@@ -26,16 +30,32 @@
     gap:20px;
     padding: 20px;
 }
+.menu li{
+    font-weight: bold;
+}
+    
 /* main section styling */
 
 /* player section styling */
-.players-container{
+.players-top{
+    width: 870px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.players-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
- grid-gap: 20px 20px;
-padding:20px;
-grid-row: ;
+ grid-template-columns:repeat(3, 1fr);
+ grid-gap: 20px;
+ margin: 20px;
+ font-family: 'Poppins', sans-serif;
+}
 
+.players-title{
+font-weight: 500px;
+font-family: 'Poppins', sans-serif;
+color:#562EFF
 }
 .players{
     display: flex;
